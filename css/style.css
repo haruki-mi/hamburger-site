@@ -104,9 +104,9 @@ input, select {
   display: flex;
 }
 
-.c-header {
+.l-header {
   width: 1553px;
-  height: auto;
+  height: 217px;
 }
 
 .c-background--beige {
@@ -198,4 +198,8 @@ input, select {
 }
 .c-font--m + {
   font: "M+ 1m";
+}
+
+.p-header-logo {
+  margin: auto 0;
 }
