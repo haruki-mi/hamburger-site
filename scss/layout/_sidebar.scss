@@ -1,0 +1,24 @@
+.l-sidebar {
+    width: 367px;
+    height: 100%;
+
+    &_menus {
+        margin-top: 75px;
+        margin-left: 41px;
+
+        &_menu-logo {
+            margin-bottom: 85px;
+        }
+
+        &_menu-list {
+            padding: 40px 0 40px 20px;
+
+            &_menu-detail {
+                margin-bottom: 22px;
+            }
+            :last-child {
+                margin-bottom: 0;
+            }
+        }
+  }
+}

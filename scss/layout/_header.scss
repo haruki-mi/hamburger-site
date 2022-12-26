@@ -1,4 +1,9 @@
 .l-header {
     width: 1553px;
     height: 217px;
+    display: flex;
+    align-items: center;
+    &__logo {
+        margin-left: 65px;
+    }
 }
