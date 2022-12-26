@@ -1,0 +1,201 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+.l-container {
+  display: flex;
+}
+
+.c-header {
+  width: 1553px;
+  height: auto;
+}
+
+.c-background--beige {
+  background-color: #FFF7EF;
+}
+.c-background--brown-normal {
+  background-color: #9D8670;
+}
+.c-background--brown-dark {
+  background-color: #3C2B1C;
+}
+.c-background--gray-perl {
+  background-color: #F2EDE9;
+}
+.c-background--gray-light {
+  background-color: #F5F5F5;
+}
+.c-background--white-plane {
+  background-color: #FFFFFF;
+}
+.c-background--white-soft {
+  background-color: #FFFDFA;
+}
+.c-background--black {
+  background-color: #000000;
+}
+
+.c-font-color--gray {
+  color: #707070;
+}
+.c-font-color--white {
+  color: #FFFFFF;
+}
+.c-font-color--black {
+  color: #3C2A10;
+}
+
+.c-font-size--14 {
+  font-size: 14px;
+}
+.c-font-size--16 {
+  font-size: 16px;
+}
+.c-font-size--19 {
+  font-size: 19px;
+}
+.c-font-size--20 {
+  font-size: 20px;
+}
+.c-font-size--22 {
+  font-size: 22px;
+}
+.c-font-size--24 {
+  font-size: 24px;
+}
+.c-font-size--28 {
+  font-size: 28px;
+}
+.c-font-size--30 {
+  font-size: 30px;
+}
+.c-font-size--34 {
+  font-size: 34px;
+}
+.c-font-size--36 {
+  font-size: 36px;
+}
+.c-font-size--40 {
+  font-size: 40px;
+}
+.c-font-size--41 {
+  font-size: 41px;
+}
+.c-font-size--44 {
+  font-size: 44px;
+}
+.c-font-size--60 {
+  font-size: 60px;
+}
+.c-font-size--64 {
+  font-size: 64px;
+}
+.c-font-size--80 {
+  font-size: 80px;
+}
+
+.c-font--roboto {
+  font: "Roboto";
+}
+.c-font--m + {
+  font: "M+ 1m";
+}
