@@ -1,0 +1,50 @@
+.c-whereeat {
+    margin: 120px 107px 134px 111px;
+    display: flex;
+
+    &--takeout {
+        background-image: url(/img/page-title_arcive.jpg);
+        padding: 0 20px;
+
+        &__logo {
+          margin-top: 20px;
+          margin-bottom: 34.5px;
+        }
+
+        &__line {
+          width: 63px;
+        }
+
+        &__content {
+            margin-bottom: 20px;
+            padding: 12px 20px 20px 20px;
+
+            &__title {
+                margin-bottom: 9px;   
+        }
+      }
+    }
+    
+    &--eatin {
+        background-image: url(/img/page-title_shop.jpg);
+        padding: 0 20px;
+        
+        &__logo {
+          margin-top: 20px;
+          margin-bottom: 34.5px;
+        }
+
+        &__line {
+          width: 63px;
+        }
+
+        &__content {
+            margin-bottom: 20px;
+            padding: 12px 20px 20px 20px;
+
+            &__title {
+                margin-bottom: 9px;
+        }
+      }
+    }
+} 
