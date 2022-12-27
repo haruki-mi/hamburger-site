@@ -106,6 +106,14 @@ input, select {
   height: 2993px;
 }
 
+.l-footer__logo {
+  text-align: center;
+  margin-top: 39px;
+}
+.l-footer__copyright {
+  margin-bottom: 30px;
+}
+
 .l-header {
   width: 1553px;
   height: 217px;
@@ -135,6 +143,10 @@ input, select {
 }
 .l-sidebar_menus_menu-list :last-child {
   margin-bottom: 0;
+}
+
+.l-wrapper {
+  margin: 0 100px;
 }
 
 .c-background--beige {

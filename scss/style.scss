@@ -9,7 +9,7 @@
 @use "layout/footer";
 @use "layout/header";
 @use "layout/main";
-@use "layout/mainbar";
+@use "layout/main";
 @use "layout/sidebar";
 @use "layout/wrapper";
 
@@ -23,7 +23,7 @@
 @use "object/component/font";
 
 // project
-
+@use "project/mainvisual";
 
 // utility
 
