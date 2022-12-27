@@ -111,6 +111,7 @@ input, select {
   margin-top: 39px;
 }
 .l-footer__copyright {
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -245,4 +246,89 @@ input, select {
 }
 .c-font--m + {
   font: "M+ 1m";
+}
+
+.c-line-height --regular {
+  line-height: 16/23;
+}
+.c-line-height --wide {
+  line-height: 16/33;
+}
+
+.c-search {
+  height: 46px;
+}
+.c-search__form {
+  width: 396px;
+  height: 46px;
+}
+.c-search__button {
+  width: 136px;
+  height: 46px;
+}
+
+.p-mainvisual {
+  width: 100%;
+  height: 530px;
+  background-image: url(/img/mainvisual-pc.jpg);
+}
+.p-mainvisual__title {
+  margin: 231px auto 243px 86px;
+}
+
+.p-map {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.p-map__content {
+  z-index: 3;
+  padding: 83px 134px 40px 119px;
+}
+.p-map__content__title {
+  margin-bottom: 55.5px;
+}
+.p-map__content__line {
+  margin-bottom: 63.5px;
+}
+
+.p-whereeat {
+  margin: 120px 107px 134px 111px;
+  display: flex;
+}
+.p-whereeat--takeout {
+  background-image: url(/img/page-title_arcive.jpg);
+  padding: 0 20px;
+}
+.p-whereeat--takeout__logo {
+  margin-top: 20px;
+  margin-bottom: 34.5px;
+}
+.p-whereeat--takeout__line {
+  width: 63px;
+}
+.p-whereeat--takeout__content {
+  margin-bottom: 20px;
+  padding: 12px 20px 20px 20px;
+}
+.p-whereeat--takeout__content__title {
+  margin-bottom: 9px;
+}
+.p-whereeat--eatin {
+  background-image: url(/img/page-title_shop.jpg);
+  padding: 0 20px;
+}
+.p-whereeat--eatin__logo {
+  margin-top: 20px;
+  margin-bottom: 34.5px;
+}
+.p-whereeat--eatin__line {
+  width: 63px;
+}
+.p-whereeat--eatin__content {
+  margin-bottom: 20px;
+  padding: 12px 20px 20px 20px;
+}
+.p-whereeat--eatin__content__title {
+  margin-bottom: 9px;
 }

@@ -1,0 +1,18 @@
+.p-map {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+
+    &__content {
+        z-index: 3;
+        padding:83px 134px 40px 119px;
+
+        &__title {
+            margin-bottom: 55.5px;
+        }
+
+        &__line {
+            margin-bottom: 63.5px;
+        }
+    }
+}

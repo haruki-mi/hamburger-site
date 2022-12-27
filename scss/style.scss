@@ -9,7 +9,6 @@
 @use "layout/footer";
 @use "layout/header";
 @use "layout/main";
-@use "layout/main";
 @use "layout/sidebar";
 @use "layout/wrapper";
 
@@ -22,10 +21,12 @@
 @use "object/component/font-weight";
 @use "object/component/font";
 @use "object/component/line-height";
+@use "object/component/search";
 
 // project
-@use "project/mainvisual";
-@use "project/whereeat";
+@use "object/project/mainvisual";
+@use "object/project/map";
+@use "object/project/whereeat";
 
 // utility
 
