@@ -1,3 +1,7 @@
+div {
+  box-sizing: border-box;
+}
+
 /* 
 html5doctor.com Reset Stylesheet
 v1.6.1
@@ -125,6 +129,10 @@ input, select {
   margin-left: 65px;
 }
 
+.l-main {
+  width: 1553px;
+}
+
 .l-sidebar {
   width: 367px;
   height: 100%;
@@ -181,7 +189,7 @@ input, select {
 .c-font-color--white {
   color: #FFFFFF;
 }
-.c-font-color--black {
+.c-font-color--brown {
   color: #3C2A10;
 }
 
@@ -242,10 +250,10 @@ input, select {
 }
 
 .c-font--roboto {
-  font: "Roboto";
+  font-family: "Roboto";
 }
-.c-font--m + {
-  font: "M+ 1m";
+.c-font--m {
+  font-family: "M+ 1m";
 }
 
 .c-line-height --regular {
@@ -257,23 +265,35 @@ input, select {
 
 .c-search {
   height: 46px;
+  width: auto;
+  margin-right: 11px;
+  margin-left: auto;
 }
 .c-search__form {
   width: 396px;
-  height: 46px;
+  height: 100%;
+  border: 1px solid #707070;
+  border-radius: 10px;
 }
 .c-search__button {
   width: 136px;
-  height: 46px;
+  height: 100%;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  margin-left: 8px;
 }
 
 .p-mainvisual {
   width: 100%;
   height: 530px;
   background-image: url(/img/mainvisual-pc.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  position: relative;
 }
 .p-mainvisual__title {
   margin: 231px auto 243px 86px;
+  position: absolute;
 }
 
 .p-map {
@@ -294,10 +314,15 @@ input, select {
 
 .p-whereeat {
   margin: 120px 107px 134px 111px;
+  height: 1196px;
+  width: 100%;
   display: flex;
 }
 .p-whereeat--takeout {
-  background-image: url(/img/page-title_arcive.jpg);
+  background-image: url(/img/takeout.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  width: 625px;
   padding: 0 20px;
 }
 .p-whereeat--takeout__logo {
@@ -315,8 +340,12 @@ input, select {
   margin-bottom: 9px;
 }
 .p-whereeat--eatin {
-  background-image: url(/img/page-title_shop.jpg);
+  background-image: url(/img/eatin.jpg);
+  background-size: auto 100%;
+  background-position: center;
+  width: 625px;
   padding: 0 20px;
+  margin-left: 80px;
 }
 .p-whereeat--eatin__logo {
   margin-top: 20px;

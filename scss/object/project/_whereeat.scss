@@ -1,9 +1,14 @@
 .p-whereeat {
     margin: 120px 107px 134px 111px;
+    height: 1196px;
+    width: 100%;
     display: flex;
 
     &--takeout {
-        background-image: url(/img/page-title_arcive.jpg);
+        background-image: url(/img/takeout.jpg);
+        background-size: auto 100%;
+        background-position: center;
+        width: 625px;
         padding: 0 20px;
 
         &__logo {
@@ -26,8 +31,12 @@
     }
     
     &--eatin {
-        background-image: url(/img/page-title_shop.jpg);
+        background-image: url(/img/eatin.jpg);
+        background-size: auto 100%;
+        background-position: center;
+        width: 625px;
         padding: 0 20px;
+        margin-left: 80px;
         
         &__logo {
           margin-top: 20px;
